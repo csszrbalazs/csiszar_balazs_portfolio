@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #343434;
+    color: white;
+    margin: 0px;
+    text-align: left;
+}
+
+main
+{
+    margin-left: 40px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 2em;
+    font-style: italic;
+}
+
+h3{
+    font-size: 1.5em;
+    font-style: italic;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+header nav{
+    display: flex;
+    text-align: left;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+header nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:link {
+    color: black;
+
+}
+
+header nav ul li a:visited {
+    color: black;
+
+}
+
+
+header nav ul li#aktualis {
+    font-size: 1.5em;
+}
+
+header nav ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.jobb 
+{
+    float: right;
+    margin-right: 40px;
+}
+
+a:link
+{
+    color: yellow;
+}
+
+a:visited
+{
+    color: blueviolet;
+}
